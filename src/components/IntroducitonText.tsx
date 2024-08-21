@@ -15,7 +15,7 @@ const IntroducitonText: FunctionComponent<IntroducitonTextType> = memo(
     }, []);
 
     const onDownladResumeButtonClick = useCallback(() => {
-      window.open("./doc_resume_eng.pdf");
+      window.open("/doc_resume_eng.pdf");
     }, []);
 
     return (
